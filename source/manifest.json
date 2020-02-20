@@ -1,0 +1,8 @@
+{
+	"name" : "Baseline integer field",
+	"author" : "Dobility",
+	"version": "3.0.1",
+	"supportedFieldTypes": ["integer"],
+	"hideDefaultRequiredMessage": false,
+	"hideDefaultConstraintMessage": false
+}
