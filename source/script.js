@@ -34,6 +34,7 @@ function setInputFilter(textbox, inputFilter, inputReplacer) {
 // If the field is not marked readonly, then restrict input to integer only.
 if(!fieldProperties.READONLY) {
     setInputFilter(input, function (value) {
+        // Empty value.
         if (value === "" || value === "-") {
             return true;
         }
@@ -43,7 +44,7 @@ if(!fieldProperties.READONLY) {
         var isValidInteger = /^-?\d*$/.test(value);
         if (isValidInteger) {
             var integer = parseInt(value, 10);
-            isValidInteger = (integer >= -999999999 && integer <= 999999999); // match our existing limits for integer values
+            isValidInteger = (integer >= -999999999 && integer <= 999999999); // match our existing limits for integer values.
         }
 
         return isValidInteger;
