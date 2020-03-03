@@ -42,7 +42,7 @@ if(!fieldProperties.READONLY) {
         // A negative sign at the beginning is also allowed.
         var isValidInteger = /^-?\d*$/.test(value);
         if (isValidInteger) {
-            var integer = parseInt(value);
+            var integer = parseInt(value, 10);
             isValidInteger = (integer >= -999999999 && integer <= 999999999); // match our existing limits for integer values
         }
 
