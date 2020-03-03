@@ -2,14 +2,9 @@
 var input = document.getElementById('integer-field');
 
 // Restricts input for the given textbox to the given inputFilter.
-function setInputFilter(textbox, inputFilter, inputReplacer) {
-    textbox.inputReplacer = inputReplacer;
-
+function setInputFilter(textbox, inputFilter) {
     function restrictInput() {
         if (inputFilter(this.value)) {
-            if (this.inputReplacer) {
-                this.value = this.inputReplacer(this.value);
-            }
             this.oldValue = this.value;
             this.oldSelectionStart = this.selectionStart;
             this.oldSelectionEnd = this.selectionEnd;
