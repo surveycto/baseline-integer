@@ -52,7 +52,7 @@ if(!fieldProperties.READONLY) {
         }
         setInputMode(inputModeIOS);
     }
-    // For iOS, we'll default the inputmode to "decimal" (as defined in the template.html) file,
+    // For Android, we'll default the inputmode to "decimal" (as defined in the template.html) file,
     // unless some specific value is passed as plug-in parameter.
     else if (isAndroid) {
         var inputModeAndroid = getPluginParameter("inputmode-android");
