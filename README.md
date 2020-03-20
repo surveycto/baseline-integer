@@ -19,7 +19,7 @@ A baseline replacement for the default integer field. Use this as a starting tem
 | `show-formatted` appearance | No |
 
 **Note about the keyboard on iOS:**  
-iOS has a less-consistent way of determining which on-screen keyboard to display than Android. If you plan on using this plug-in on iOS, you should test your form on the actual iOS device that you plan on using. If the wrong keyboard appears (for example, if there is no decimal button available), you may supply an optional parameter to the plug-in to set the keyboard type manually. 
+iOS has a less-consistent way of determining which on-screen keyboard to display than Android. If you plan on using this plug-in on iOS, you should test your form on the actual iOS device that you plan on using. If the wrong keyboard appears (for example, if there is no minus button available), you may supply an optional parameter to the plug-in to set the keyboard type manually. 
 
 | Parameter key | Parameter value |
 | --- | --- |
