@@ -1,5 +1,7 @@
 # Baseline integer field
 
+![](extras/baseline-integer.jpg)
+
 ## Description
 
 A baseline replacement for the default integer field. Use this as a starting template when creating your own integer field plug-in.
