@@ -6,6 +6,8 @@
 
 A baseline replacement for the default integer field. Use this as a starting template when creating your own integer field plug-in.
 
+[![Download now](extras/download-button.png)](https://github.com/surveycto/baseline-integer/raw/master/baseline-integer.fieldplugin.zip)
+
 ## Default SurveyCTO feature support
 
 | Feature / Property | Support |
