@@ -4,7 +4,7 @@
 
 ## Description
 
-A baseline replacement for the default integer field. Use this as a starting template when creating your own integer field plug-in.
+A simple replacement for the default integer field, plus a few improvements (see below). You can either download and use this as-is, or you can use it as a starting template when creating your own field plug-in for a integer field.
 
 [![Download now](extras/download-button.png)](https://github.com/surveycto/baseline-integer/raw/master/baseline-integer.fieldplugin.zip)
 
