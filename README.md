@@ -4,13 +4,13 @@
 
 ## Description
 
-A simple replacement for the default integer field, plus a few improvements (see below). You can either download and use this as-is, or you can use it as a starting template when creating your own field plug-in for a integer field.
+A simple replacement for the default *integer* field, plus a few improvements (see below). You can either download and use this as-is, or you can use it as a starting template when creating your own field plug-in for a *integer* field.
 
 [![Download now](extras/download-button.png)](https://github.com/surveycto/baseline-integer/raw/master/baseline-integer.fieldplugin.zip)
 
 ### Features
 
-In addition to supporting the default SurveyCTO features listed above, this field plug-in offers the following expanded functionality:
+In addition to supporting the default SurveyCTO features listed below, this field plug-in offers the following expanded functionality:
 
 1. **Support for RTL languages**  
     If your *label* or *hint* is in a language that uses a right-to-left alphabet (like Arabic), it will be right-justified.
@@ -25,7 +25,7 @@ This field plug-in requires the `integer` field type.
 
 ### Getting started
 
-**To use this plug-in as-is**, just download the [baseline-integer.fieldplugin.zip](https://github.com/surveycto/baseline-integer/raw/master/baseline-integer.fieldplugin.zip) file from this repo, and attach it to your form. For more details about using field plug-ins, please read the [user documentation](https://docs.surveycto.com/02-designing-forms/03-advanced-topics/06.using-field-plug-ins.html).
+**To use this plug-in as-is**, just download the [baseline-integer.fieldplugin.zip](https://github.com/surveycto/baseline-integer/raw/master/baseline-integer.fieldplugin.zip) file from this repo, specify this field plug-in as a custom field *appearance* in the form design (like in the [test form](https://github.com/surveycto/baseline-integer/raw/master/extras/test-form/test-form-package.zip)), and attach it to your form. For more details about using field plug-ins, please read the [user documentation](https://docs.surveycto.com/02-designing-forms/03-advanced-topics/06.using-field-plug-ins.html).
 
 **To create your own** field plug-in using this as a template, follow these steps:
 
